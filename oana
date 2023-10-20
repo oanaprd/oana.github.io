@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Team Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        header {
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #f2f2f2;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to oana</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>About Us</h2>
+        <p>[Description of your CTF team here]</p>
+    </section>
+    <section>
+        <h2>Events</h2>
+        <p>[Upcoming events or recent participation]</p>
+    </section>
+    <section>
+        <h2>Contact</h2>
+        <p>Email: [Your Email]<br>
+        Phone: [Your Phone Number]</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 [CTF Team Name]</p>
+    </footer>
+</body>
+</html>
